@@ -10,6 +10,7 @@
 # The tip is $40.00
 # The total is $240.00
 
+
 bill = float(input('What is the bill? '))
 percentage = float(input('What is the tip percentage? '))
 

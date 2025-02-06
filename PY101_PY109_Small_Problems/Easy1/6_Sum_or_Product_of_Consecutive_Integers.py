@@ -13,6 +13,7 @@
 # Enter "s" to compute the sum, or "p" to compute the product. p
 # The product of the integers between 1 and 6 is 720.
 
+
 import math
 
 integer = int(input('Please enter an integer greater than 0: '))

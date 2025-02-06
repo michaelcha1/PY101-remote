@@ -13,6 +13,7 @@
 # print(multisum(10) == 33)
 # print(multisum(1000) == 234168)
 
+
 def multisum(number):
     list = []
     for num in range(1, number + 1):

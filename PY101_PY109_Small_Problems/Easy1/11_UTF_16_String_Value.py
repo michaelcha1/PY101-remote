@@ -14,6 +14,7 @@
 # print(utf16_value(OMEGA) == 937)
 # print(utf16_value(OMEGA + OMEGA + OMEGA) == 2811)
 
+
 def utf16_value(string):
     sum_ = 0
     for char in string:

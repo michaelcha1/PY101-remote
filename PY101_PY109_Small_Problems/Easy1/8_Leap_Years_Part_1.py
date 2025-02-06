@@ -30,6 +30,7 @@
 # print(is_leap_year(2024) == True)
 # print(is_leap_year(2025) == False)
 
+
 def is_leap_year(year):
     if year % 400 == 0:
         return True
