@@ -59,5 +59,5 @@ match operation:
         output = int(number1) / int(number2)
 
 
-#Print the result
+# Print the result
 prompt(f'The result is: {output}')
