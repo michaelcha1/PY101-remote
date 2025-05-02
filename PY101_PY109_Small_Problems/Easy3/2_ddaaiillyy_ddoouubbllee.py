@@ -34,7 +34,7 @@ def crunch(text):
 
     while index < len(text):
         if index == len(text) - 1 or text[index] != text[index + 1]:
-            crunched_index += text[index]
+            crunched_text += text[index]
         index += 1
 
     return crunched_text
