@@ -22,13 +22,13 @@ def century(year):
     century_number = year // 100 + 1
 
     if year % 100 == 0:
-        century_number2 -= 1
+        century_number -= 1
 
     suffix = century_suffix(century_number)
     return f'{century_number}{suffix}'
 
 def century_suffix(century_number):
-    last_two = century_number % 100
+    last_two = century_number & 100
     last_digit = century_number & 10
 
     match last_two:
